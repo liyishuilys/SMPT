@@ -1,0 +1,18 @@
+{    
+    "atom_names": ["atomic_num", "formal_charge", "degree", 
+        "chiral_tag", "total_numHs", "is_aromatic", 
+        "hybridization"],
+    "bond_names": ["bond_dir", "bond_type", "is_in_ring"],
+    "bond_float_names": ["bond_length"],
+    "bond_angle_float_names": ["bond_angle"],
+    "plane_names": ["plane_in_ring"],
+    "plane_float_names": ["plane_mass"],
+    "dihedral_angle_float_names": ["DihedralAngleGraph_angles"],
+
+    "subgraph_archi": "ab_ba_da",
+    "embed_dim": 32,
+    "dropout_rate": 0.5,
+    "layer_num": 8,
+    "readout": "mean"
+}
+
